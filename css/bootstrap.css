@@ -7482,9 +7482,13 @@ button.close {
   position: relative; }
   /* line 6, C:/Users/gpaton/Documents/GitHub/xure/css/custom/_elements.scss */
   .expand-container .expand-body {
-    margin-left: -45px;
-    margin-right: -45px;
     position: absolute;
-    bottom: 0; }
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%); }
+    /* line 12, C:/Users/gpaton/Documents/GitHub/xure/css/custom/_elements.scss */
+    .expand-container .expand-body img {
+      max-height: 100vh;
+      max-width: calc(100vw + 60px); }
 
 /*# sourceMappingURL=bootstrap.css.map */
