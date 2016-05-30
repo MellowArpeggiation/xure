@@ -7487,8 +7487,13 @@ button.close {
     left: 50%;
     transform: translateX(-50%); }
     /* line 12, C:/Users/gpaton/Documents/GitHub/xure/css/custom/_elements.scss */
-    .expand-container .expand-body img {
+    .expand-container .expand-body .cover {
       max-height: 100vh;
       max-width: calc(100vw + 60px); }
+
+/* line 20, C:/Users/gpaton/Documents/GitHub/xure/css/custom/_elements.scss */
+.jumbotron-invert {
+  background-color: #555555;
+  color: #eeeeee; }
 
 /*# sourceMappingURL=bootstrap.css.map */

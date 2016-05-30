@@ -9,9 +9,15 @@
 		left: 50%;
 		transform: translateX(-50%);
 		
-		img {
+		.cover {
 			max-height: 100vh;
 			max-width: calc(100vw + 60px);
 		}
+		
 	}
+}
+
+.jumbotron-invert {
+	background-color: $gray;
+	color: $gray-lighter;
 }
