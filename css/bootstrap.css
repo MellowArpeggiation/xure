@@ -5098,15 +5098,15 @@ tbody.collapse.in {
       background-color: transparent; }
   /* line 410, C:/Users/gpaton/Documents/GitHub/xure/css/bootstrap/_navbar.scss */
   .navbar-default .navbar-text {
-    color: #777; }
+    color: #ccc; }
   /* line 415, C:/Users/gpaton/Documents/GitHub/xure/css/bootstrap/_navbar.scss */
   .navbar-default .navbar-nav > li > a {
-    color: #777; }
+    color: #ccc; }
     /* line 419, C:/Users/gpaton/Documents/GitHub/xure/css/bootstrap/_navbar.scss */
     .navbar-default .navbar-nav > li > a:hover,
     .navbar-default .navbar-nav > li > a:focus {
-      color: #333;
-      background-color: transparent; }
+      color: #bbb;
+      background-color: rgba(0, 0, 0, 0.1); }
   /* line 427, C:/Users/gpaton/Documents/GitHub/xure/css/bootstrap/_navbar.scss */
   .navbar-default .navbar-nav > .active > a,
   .navbar-default .navbar-nav > .active > a:hover,
@@ -5128,7 +5128,7 @@ tbody.collapse.in {
       background-color: transparent; }
     /* line 448, C:/Users/gpaton/Documents/GitHub/xure/css/bootstrap/_navbar.scss */
     .navbar-default .navbar-toggle .icon-bar {
-      background-color: #ddd; }
+      background-color: #ccc; }
   /* line 454, C:/Users/gpaton/Documents/GitHub/xure/css/bootstrap/_navbar.scss */
   .navbar-default .navbar-collapse,
   .navbar-default .navbar-form {
@@ -5142,12 +5142,12 @@ tbody.collapse.in {
   @media (max-width: 767px) {
     /* line 473, C:/Users/gpaton/Documents/GitHub/xure/css/bootstrap/_navbar.scss */
     .navbar-default .navbar-nav .open .dropdown-menu > li > a {
-      color: #777; }
+      color: #ccc; }
       /* line 476, C:/Users/gpaton/Documents/GitHub/xure/css/bootstrap/_navbar.scss */
       .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
       .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
-        color: #333;
-        background-color: transparent; }
+        color: #bbb;
+        background-color: rgba(0, 0, 0, 0.1); }
     /* line 484, C:/Users/gpaton/Documents/GitHub/xure/css/bootstrap/_navbar.scss */
     .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
     .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
@@ -5162,17 +5162,17 @@ tbody.collapse.in {
       background-color: transparent; } }
   /* line 506, C:/Users/gpaton/Documents/GitHub/xure/css/bootstrap/_navbar.scss */
   .navbar-default .navbar-link {
-    color: #777; }
+    color: #ccc; }
     /* line 508, C:/Users/gpaton/Documents/GitHub/xure/css/bootstrap/_navbar.scss */
     .navbar-default .navbar-link:hover {
-      color: #333; }
+      color: #bbb; }
   /* line 513, C:/Users/gpaton/Documents/GitHub/xure/css/bootstrap/_navbar.scss */
   .navbar-default .btn-link {
-    color: #777; }
+    color: #ccc; }
     /* line 516, C:/Users/gpaton/Documents/GitHub/xure/css/bootstrap/_navbar.scss */
     .navbar-default .btn-link:hover,
     .navbar-default .btn-link:focus {
-      color: #333; }
+      color: #bbb; }
     /* line 522, C:/Users/gpaton/Documents/GitHub/xure/css/bootstrap/_navbar.scss */
     .navbar-default .btn-link[disabled]:hover,
     .navbar-default .btn-link[disabled]:focus,
