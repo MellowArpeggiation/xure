@@ -1382,7 +1382,7 @@ body {
   font-size: 14px;
   line-height: 1.42857;
   color: #333333;
-  background-color: #fff; }
+  background-color: #fafafa; }
 
 /* line 39, C:/Users/gpaton/Documents/GitHub/xure/css/bootstrap/_scaffolding.scss */
 input,
@@ -2709,7 +2709,7 @@ th {
     border-top: 2px solid #ddd; }
   /* line 62, C:/Users/gpaton/Documents/GitHub/xure/css/bootstrap/_tables.scss */
   .table .table {
-    background-color: #fff; }
+    background-color: #fafafa; }
 
 /* line 76, C:/Users/gpaton/Documents/GitHub/xure/css/bootstrap/_tables.scss */
 .table-condensed > thead > tr > th,
@@ -5086,7 +5086,7 @@ tbody.collapse.in {
 
 /* line 397, C:/Users/gpaton/Documents/GitHub/xure/css/bootstrap/_navbar.scss */
 .navbar-default {
-  background-color: linear-gradient(white, rgba(255, 255, 255, 0));
+  background-color: rgba(255, 255, 255, 0.5);
   border-color: transparent; }
   /* line 401, C:/Users/gpaton/Documents/GitHub/xure/css/bootstrap/_navbar.scss */
   .navbar-default .navbar-brand {
@@ -5106,13 +5106,13 @@ tbody.collapse.in {
     .navbar-default .navbar-nav > li > a:hover,
     .navbar-default .navbar-nav > li > a:focus {
       color: #bbb;
-      background-color: rgba(0, 0, 0, 0.1); }
+      background-color: rgba(0, 0, 0, 0.02); }
   /* line 427, C:/Users/gpaton/Documents/GitHub/xure/css/bootstrap/_navbar.scss */
   .navbar-default .navbar-nav > .active > a,
   .navbar-default .navbar-nav > .active > a:hover,
   .navbar-default .navbar-nav > .active > a:focus {
     color: #555;
-    background-color: #e7e7e7; }
+    background-color: rgba(238, 238, 238, 0.5); }
   /* line 435, C:/Users/gpaton/Documents/GitHub/xure/css/bootstrap/_navbar.scss */
   .navbar-default .navbar-nav > .disabled > a,
   .navbar-default .navbar-nav > .disabled > a:hover,
@@ -5137,7 +5137,7 @@ tbody.collapse.in {
   .navbar-default .navbar-nav > .open > a,
   .navbar-default .navbar-nav > .open > a:hover,
   .navbar-default .navbar-nav > .open > a:focus {
-    background-color: #e7e7e7;
+    background-color: rgba(238, 238, 238, 0.5);
     color: #555; }
   @media (max-width: 767px) {
     /* line 473, C:/Users/gpaton/Documents/GitHub/xure/css/bootstrap/_navbar.scss */
@@ -5147,13 +5147,13 @@ tbody.collapse.in {
       .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
       .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
         color: #bbb;
-        background-color: rgba(0, 0, 0, 0.1); }
+        background-color: rgba(0, 0, 0, 0.02); }
     /* line 484, C:/Users/gpaton/Documents/GitHub/xure/css/bootstrap/_navbar.scss */
     .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
     .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
     .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
       color: #555;
-      background-color: #e7e7e7; }
+      background-color: rgba(238, 238, 238, 0.5); }
     /* line 492, C:/Users/gpaton/Documents/GitHub/xure/css/bootstrap/_navbar.scss */
     .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a,
     .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:hover,
@@ -7474,5 +7474,17 @@ button.close {
   /* line 16, C:/Users/gpaton/Documents/GitHub/xure/css/bootstrap/mixins/_responsive-visibility.scss */
   .hidden-print {
     display: none !important; } }
+
+/* line 1, C:/Users/gpaton/Documents/GitHub/xure/css/custom/_elements.scss */
+.expand-container {
+  overflow: hidden;
+  height: 100vh;
+  position: relative; }
+  /* line 6, C:/Users/gpaton/Documents/GitHub/xure/css/custom/_elements.scss */
+  .expand-container .expand-body {
+    margin-left: -45px;
+    margin-right: -45px;
+    position: absolute;
+    bottom: 0; }
 
 /*# sourceMappingURL=bootstrap.css.map */

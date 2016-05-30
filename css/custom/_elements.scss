@@ -1,0 +1,13 @@
+.expand-container {
+	overflow: hidden;
+	height: 100vh;
+	position: relative;
+	
+	.expand-body {
+		margin-left: -45px;
+		margin-right: -45px;
+		
+		position: absolute;
+		bottom: 0;
+	}
+}
