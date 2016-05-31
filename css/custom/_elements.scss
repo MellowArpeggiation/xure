@@ -15,9 +15,54 @@
 		}
 		
 	}
+	
+	.expand-header {
+		position: relative;
+		z-index: 1;
+		text-align: center;
+		margin-top: 25vh;
+		transform: translateY(-50%);
+		
+		h1 {
+			font-size: 15vw;
+		}
+		
+		h2 {
+			font-size: 3.5vw;
+		}
+		
+		.expand-center {
+			width: 49vw;
+			display: inline-block;
+		}
+	}
+}
+
+.title {
+	border: 3px solid black;
+	border-bottom-width: 4px;
+	color: black;
+	
+	padding: 0 0.2em;
 }
 
 .jumbotron-invert {
 	background-color: $gray;
 	color: $gray-lighter;
+}
+
+body {
+	font-family: serif;
+}
+
+
+
+// Bootstrap Overrides
+// --------------------------------------------------
+.btn {
+	border-width: 2px;
+}
+
+.navbar-default {
+	-webkit-backdrop-filter: blur(4px);
 }

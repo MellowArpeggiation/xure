@@ -1424,7 +1424,7 @@ img {
 
 /* line 86, C:/Users/gpaton/Documents/GitHub/xure/css/bootstrap/_scaffolding.scss */
 .img-rounded {
-  border-radius: 6px; }
+  border-radius: 0; }
 
 /* line 93, C:/Users/gpaton/Documents/GitHub/xure/css/bootstrap/_scaffolding.scss */
 .img-thumbnail {
@@ -1873,7 +1873,7 @@ code {
   font-size: 90%;
   color: #c7254e;
   background-color: #f9f2f4;
-  border-radius: 4px; }
+  border-radius: 0; }
 
 /* line 24, C:/Users/gpaton/Documents/GitHub/xure/css/bootstrap/_code.scss */
 kbd {
@@ -1881,7 +1881,7 @@ kbd {
   font-size: 90%;
   color: #fff;
   background-color: #333;
-  border-radius: 3px;
+  border-radius: 0;
   box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.25); }
   /* line 32, C:/Users/gpaton/Documents/GitHub/xure/css/bootstrap/_code.scss */
   kbd kbd {
@@ -1902,7 +1902,7 @@ pre {
   color: #333333;
   background-color: #f5f5f5;
   border: 1px solid #ccc;
-  border-radius: 4px; }
+  border-radius: 0; }
   /* line 55, C:/Users/gpaton/Documents/GitHub/xure/css/bootstrap/_code.scss */
   pre code {
     padding: 0;
@@ -3559,7 +3559,7 @@ select[multiple].input-lg, .input-group-lg > select[multiple].form-control,
 .btn {
   display: inline-block;
   margin-bottom: 0;
-  font-weight: normal;
+  font-weight: bold;
   text-align: center;
   vertical-align: middle;
   touch-action: manipulation;
@@ -3570,7 +3570,7 @@ select[multiple].input-lg, .input-group-lg > select[multiple].form-control,
   padding: 6px 12px;
   font-size: 14px;
   line-height: 1.42857;
-  border-radius: 4px;
+  border-radius: 0;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -3589,7 +3589,7 @@ select[multiple].input-lg, .input-group-lg > select[multiple].form-control,
   .btn:hover,
   .btn:focus,
   .btn.focus {
-    color: #333;
+    color: black;
     text-decoration: none; }
   /* line 40, C:/Users/gpaton/Documents/GitHub/xure/css/bootstrap/_buttons.scss */
   .btn:active,
@@ -3615,27 +3615,27 @@ fieldset[disabled] a.btn {
 
 /* line 68, C:/Users/gpaton/Documents/GitHub/xure/css/bootstrap/_buttons.scss */
 .btn-default {
-  color: #333;
-  background-color: #fff;
-  border-color: #ccc; }
+  color: black;
+  background-color: transparent;
+  border-color: black; }
   /* line 12, C:/Users/gpaton/Documents/GitHub/xure/css/bootstrap/mixins/_buttons.scss */
   .btn-default:focus,
   .btn-default.focus {
-    color: #333;
-    background-color: #e6e6e6;
-    border-color: #8c8c8c; }
+    color: black;
+    background-color: transparent;
+    border-color: black; }
   /* line 17, C:/Users/gpaton/Documents/GitHub/xure/css/bootstrap/mixins/_buttons.scss */
   .btn-default:hover {
-    color: #333;
-    background-color: #e6e6e6;
-    border-color: #adadad; }
+    color: black;
+    background-color: transparent;
+    border-color: black; }
   /* line 24, C:/Users/gpaton/Documents/GitHub/xure/css/bootstrap/mixins/_buttons.scss */
   .btn-default:active,
   .btn-default.active,
   .open > .btn-default.dropdown-toggle {
-    color: #333;
-    background-color: #e6e6e6;
-    border-color: #adadad; }
+    color: black;
+    background-color: transparent;
+    border-color: black; }
     /* line 31, C:/Users/gpaton/Documents/GitHub/xure/css/bootstrap/mixins/_buttons.scss */
     .btn-default:active:hover,
     .btn-default:active:focus,
@@ -3646,9 +3646,9 @@ fieldset[disabled] a.btn {
     .open > .btn-default.dropdown-toggle:hover,
     .open > .btn-default.dropdown-toggle:focus,
     .open > .btn-default.dropdown-toggle.focus {
-      color: #333;
-      background-color: #d4d4d4;
-      border-color: #8c8c8c; }
+      color: black;
+      background-color: transparent;
+      border-color: black; }
   /* line 39, C:/Users/gpaton/Documents/GitHub/xure/css/bootstrap/mixins/_buttons.scss */
   .btn-default:active,
   .btn-default.active,
@@ -3664,12 +3664,12 @@ fieldset[disabled] a.btn {
   fieldset[disabled] .btn-default:hover,
   fieldset[disabled] .btn-default:focus,
   fieldset[disabled] .btn-default.focus {
-    background-color: #fff;
-    border-color: #ccc; }
+    background-color: transparent;
+    border-color: black; }
   /* line 53, C:/Users/gpaton/Documents/GitHub/xure/css/bootstrap/mixins/_buttons.scss */
   .btn-default .badge {
-    color: #fff;
-    background-color: #333; }
+    color: transparent;
+    background-color: black; }
 
 /* line 71, C:/Users/gpaton/Documents/GitHub/xure/css/bootstrap/_buttons.scss */
 .btn-primary {
@@ -4000,21 +4000,21 @@ fieldset[disabled] a.btn {
   padding: 10px 16px;
   font-size: 18px;
   line-height: 1.33333;
-  border-radius: 6px; }
+  border-radius: 0; }
 
 /* line 139, C:/Users/gpaton/Documents/GitHub/xure/css/bootstrap/_buttons.scss */
 .btn-sm, .btn-group-sm > .btn {
   padding: 5px 10px;
   font-size: 12px;
   line-height: 1.5;
-  border-radius: 3px; }
+  border-radius: 0; }
 
 /* line 143, C:/Users/gpaton/Documents/GitHub/xure/css/bootstrap/_buttons.scss */
 .btn-xs, .btn-group-xs > .btn {
   padding: 1px 5px;
   font-size: 12px;
   line-height: 1.5;
-  border-radius: 3px; }
+  border-radius: 0; }
 
 /* line 151, C:/Users/gpaton/Documents/GitHub/xure/css/bootstrap/_buttons.scss */
 .btn-block {
@@ -4106,7 +4106,7 @@ tbody.collapse.in {
   background-color: #fff;
   border: 1px solid #ccc;
   border: 1px solid rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
+  border-radius: 0;
   -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
   background-clip: padding-box; }
@@ -4389,8 +4389,8 @@ tbody.collapse.in {
 
 /* line 175, C:/Users/gpaton/Documents/GitHub/xure/css/bootstrap/_button-groups.scss */
 .btn-group-vertical > .btn:first-child:not(:last-child) {
-  border-top-right-radius: 4px;
-  border-top-left-radius: 4px;
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0; }
 
@@ -4398,8 +4398,8 @@ tbody.collapse.in {
 .btn-group-vertical > .btn:last-child:not(:first-child) {
   border-top-right-radius: 0;
   border-top-left-radius: 0;
-  border-bottom-right-radius: 4px;
-  border-bottom-left-radius: 4px; }
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0; }
 
 /* line 184, C:/Users/gpaton/Documents/GitHub/xure/css/bootstrap/_button-groups.scss */
 .btn-group-vertical > .btn-group:not(:first-child):not(:last-child) > .btn {
@@ -4632,7 +4632,7 @@ tbody.collapse.in {
       margin-right: 2px;
       line-height: 1.42857;
       border: 1px solid transparent;
-      border-radius: 4px 4px 0 0; }
+      border-radius: 0 0 0 0; }
       /* line 89, C:/Users/gpaton/Documents/GitHub/xure/css/bootstrap/_navs.scss */
       .nav-tabs > li > a:hover {
         border-color: #eeeeee #eeeeee #ddd; }
@@ -4699,7 +4699,7 @@ tbody.collapse.in {
   /* line 193, C:/Users/gpaton/Documents/GitHub/xure/css/bootstrap/_navs.scss */
   .nav-tabs-justified > li > a, .nav-tabs.nav-justified > li > a {
     margin-right: 0;
-    border-radius: 4px; }
+    border-radius: 0; }
   /* line 201, C:/Users/gpaton/Documents/GitHub/xure/css/bootstrap/_navs.scss */
   .nav-tabs-justified > .active > a,
   .nav-tabs.nav-justified > .active > a, .nav-tabs-justified > .active > a:hover,
@@ -4709,7 +4709,7 @@ tbody.collapse.in {
     /* line 206, C:/Users/gpaton/Documents/GitHub/xure/css/bootstrap/_navs.scss */
     .nav-tabs-justified > li > a, .nav-tabs.nav-justified > li > a {
       border-bottom: 1px solid #ddd;
-      border-radius: 4px 4px 0 0; }
+      border-radius: 0 0 0 0; }
     /* line 212, C:/Users/gpaton/Documents/GitHub/xure/css/bootstrap/_navs.scss */
     .nav-tabs-justified > .active > a,
     .nav-tabs.nav-justified > .active > a, .nav-tabs-justified > .active > a:hover,
@@ -4895,7 +4895,7 @@ tbody.collapse.in {
   background-color: transparent;
   background-image: none;
   border: 1px solid transparent;
-  border-radius: 4px; }
+  border-radius: 0; }
   /* line 206, C:/Users/gpaton/Documents/GitHub/xure/css/bootstrap/_navbar.scss */
   .navbar-toggle:focus {
     outline: 0; }
@@ -5288,7 +5288,7 @@ tbody.collapse.in {
   margin-bottom: 20px;
   list-style: none;
   background-color: #f5f5f5;
-  border-radius: 4px; }
+  border-radius: 0; }
   /* line 13, C:/Users/gpaton/Documents/GitHub/xure/css/bootstrap/_breadcrumbs.scss */
   .breadcrumb > li {
     display: inline-block; }
@@ -5306,7 +5306,7 @@ tbody.collapse.in {
   display: inline-block;
   padding-left: 0;
   margin: 20px 0;
-  border-radius: 4px; }
+  border-radius: 0; }
   /* line 10, C:/Users/gpaton/Documents/GitHub/xure/css/bootstrap/_pagination.scss */
   .pagination > li {
     display: inline; }
@@ -5326,13 +5326,13 @@ tbody.collapse.in {
     .pagination > li:first-child > a,
     .pagination > li:first-child > span {
       margin-left: 0;
-      border-bottom-left-radius: 4px;
-      border-top-left-radius: 4px; }
+      border-bottom-left-radius: 0;
+      border-top-left-radius: 0; }
     /* line 33, C:/Users/gpaton/Documents/GitHub/xure/css/bootstrap/_pagination.scss */
     .pagination > li:last-child > a,
     .pagination > li:last-child > span {
-      border-bottom-right-radius: 4px;
-      border-top-right-radius: 4px; }
+      border-bottom-right-radius: 0;
+      border-top-right-radius: 0; }
   /* line 42, C:/Users/gpaton/Documents/GitHub/xure/css/bootstrap/_pagination.scss */
   .pagination > li > a:hover,
   .pagination > li > a:focus,
@@ -5376,14 +5376,14 @@ tbody.collapse.in {
 /* line 13, C:/Users/gpaton/Documents/GitHub/xure/css/bootstrap/mixins/_pagination.scss */
 .pagination-lg > li:first-child > a,
 .pagination-lg > li:first-child > span {
-  border-bottom-left-radius: 6px;
-  border-top-left-radius: 6px; }
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0; }
 
 /* line 19, C:/Users/gpaton/Documents/GitHub/xure/css/bootstrap/mixins/_pagination.scss */
 .pagination-lg > li:last-child > a,
 .pagination-lg > li:last-child > span {
-  border-bottom-right-radius: 6px;
-  border-top-right-radius: 6px; }
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0; }
 
 /* line 6, C:/Users/gpaton/Documents/GitHub/xure/css/bootstrap/mixins/_pagination.scss */
 .pagination-sm > li > a,
@@ -5395,14 +5395,14 @@ tbody.collapse.in {
 /* line 13, C:/Users/gpaton/Documents/GitHub/xure/css/bootstrap/mixins/_pagination.scss */
 .pagination-sm > li:first-child > a,
 .pagination-sm > li:first-child > span {
-  border-bottom-left-radius: 3px;
-  border-top-left-radius: 3px; }
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0; }
 
 /* line 19, C:/Users/gpaton/Documents/GitHub/xure/css/bootstrap/mixins/_pagination.scss */
 .pagination-sm > li:last-child > a,
 .pagination-sm > li:last-child > span {
-  border-bottom-right-radius: 3px;
-  border-top-right-radius: 3px; }
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0; }
 
 /* line 6, C:/Users/gpaton/Documents/GitHub/xure/css/bootstrap/_pager.scss */
 .pager {
@@ -5597,7 +5597,7 @@ a.badge:focus {
   /* line 29, C:/Users/gpaton/Documents/GitHub/xure/css/bootstrap/_jumbotron.scss */
   .container .jumbotron,
   .container-fluid .jumbotron {
-    border-radius: 6px;
+    border-radius: 0;
     padding-left: 15px;
     padding-right: 15px; }
   /* line 35, C:/Users/gpaton/Documents/GitHub/xure/css/bootstrap/_jumbotron.scss */
@@ -6508,7 +6508,7 @@ button.list-group-item-danger {
   margin-bottom: 20px;
   background-color: #f5f5f5;
   border: 1px solid #e3e3e3;
-  border-radius: 4px;
+  border-radius: 0;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05); }
   /* line 15, C:/Users/gpaton/Documents/GitHub/xure/css/bootstrap/_wells.scss */
@@ -6519,12 +6519,12 @@ button.list-group-item-danger {
 /* line 22, C:/Users/gpaton/Documents/GitHub/xure/css/bootstrap/_wells.scss */
 .well-lg {
   padding: 24px;
-  border-radius: 6px; }
+  border-radius: 0; }
 
 /* line 26, C:/Users/gpaton/Documents/GitHub/xure/css/bootstrap/_wells.scss */
 .well-sm {
   padding: 9px;
-  border-radius: 3px; }
+  border-radius: 0; }
 
 /* line 6, C:/Users/gpaton/Documents/GitHub/xure/css/bootstrap/_close.scss */
 .close {
@@ -6603,7 +6603,7 @@ button.close {
   background-color: #fff;
   border: 1px solid #999;
   border: 1px solid rgba(0, 0, 0, 0.2);
-  border-radius: 6px;
+  border-radius: 0;
   -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
   box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
   background-clip: padding-box;
@@ -6755,7 +6755,7 @@ button.close {
   color: #fff;
   text-align: center;
   background-color: #000;
-  border-radius: 4px; }
+  border-radius: 0; }
 
 /* line 36, C:/Users/gpaton/Documents/GitHub/xure/css/bootstrap/_tooltip.scss */
 .tooltip-arrow {
@@ -6858,7 +6858,7 @@ button.close {
   background-clip: padding-box;
   border: 1px solid #ccc;
   border: 1px solid rgba(0, 0, 0, 0.2);
-  border-radius: 6px;
+  border-radius: 0;
   -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); }
   /* line 27, C:/Users/gpaton/Documents/GitHub/xure/css/bootstrap/_popovers.scss */
@@ -6881,7 +6881,7 @@ button.close {
   font-size: 14px;
   background-color: #f7f7f7;
   border-bottom: 1px solid #ebebeb;
-  border-radius: 5px 5px 0 0; }
+  border-radius: -1 -1 0 0; }
 
 /* line 42, C:/Users/gpaton/Documents/GitHub/xure/css/bootstrap/_popovers.scss */
 .popover-content {
@@ -7490,10 +7490,46 @@ button.close {
     .expand-container .expand-body .cover {
       max-height: 100vh;
       max-width: calc(100vw + 60px); }
+  /* line 19, C:/Users/gpaton/Documents/GitHub/xure/css/custom/_elements.scss */
+  .expand-container .expand-header {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    margin-top: 25vh;
+    transform: translateY(-50%); }
+    /* line 26, C:/Users/gpaton/Documents/GitHub/xure/css/custom/_elements.scss */
+    .expand-container .expand-header h1 {
+      font-size: 15vw; }
+    /* line 30, C:/Users/gpaton/Documents/GitHub/xure/css/custom/_elements.scss */
+    .expand-container .expand-header h2 {
+      font-size: 3.5vw; }
+    /* line 34, C:/Users/gpaton/Documents/GitHub/xure/css/custom/_elements.scss */
+    .expand-container .expand-header .expand-center {
+      width: 49vw;
+      display: inline-block; }
 
-/* line 20, C:/Users/gpaton/Documents/GitHub/xure/css/custom/_elements.scss */
+/* line 41, C:/Users/gpaton/Documents/GitHub/xure/css/custom/_elements.scss */
+.title {
+  border: 3px solid black;
+  border-bottom-width: 4px;
+  color: black;
+  padding: 0 0.2em; }
+
+/* line 49, C:/Users/gpaton/Documents/GitHub/xure/css/custom/_elements.scss */
 .jumbotron-invert {
   background-color: #555555;
   color: #eeeeee; }
+
+/* line 54, C:/Users/gpaton/Documents/GitHub/xure/css/custom/_elements.scss */
+body {
+  font-family: serif; }
+
+/* line 62, C:/Users/gpaton/Documents/GitHub/xure/css/custom/_elements.scss */
+.btn {
+  border-width: 2px; }
+
+/* line 66, C:/Users/gpaton/Documents/GitHub/xure/css/custom/_elements.scss */
+.navbar-default {
+  -webkit-backdrop-filter: blur(4px); }
 
 /*# sourceMappingURL=bootstrap.css.map */
